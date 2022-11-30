@@ -1,0 +1,194 @@
+body{
+    background-color: rgba(225, 225, 239, 0.712);
+}
+
+nav{
+    background:white;
+    height: 2.5rem;
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userReg{
+    font-weight: bold;
+}
+
+.container{
+    max-width: 80rem;
+    /* margin-inline:: auto; */
+    height: 45rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spanAll{
+    /* display:grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 2rem; */
+    height: 40rem;
+    max-width: 30rem;
+    display: flex;
+    justify-content: center;
+    background: white;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profileImage{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.spanAllContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    width: 25rem;
+}
+
+/* .box1{
+background-color: purple;
+grid-column: 1/3;
+display: flex;
+justify-content: center;
+} */
+
+.memeImg{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.registerNameh2{
+    height: 1rem;
+    margin: 0 0 20px 0;
+}
+
+.contentEl{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.eachBox{
+display: flex;
+margin: 0.5rem;
+padding: 0.7rem;
+border: 1px solid rgba(17, 153, 168, 0.366);
+width: 13rem;
+}
+
+.eachBox:hover{
+margin: 0.5rem;
+background-color: white;
+padding: 0.7rem;
+box-shadow: rgba(17, 153, 168, 0.366) 0px 1px 3px,  rgba(17, 153, 168, 0.366) 0px 1px 2px;
+}
+
+.formInputs{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.greenTick{
+    color: green;
+    transform: scale(2);
+    transition: 0.5s ease-in;    
+}
+
+.blackTick{
+    color: white;
+}
+
+.pwordError{
+    color: red;
+    font-weight: bold;
+}
+
+.genderId{
+    display: flex;
+    align-items: center;
+    /* margin: 0.5rem; */
+    font-size: 1rem;
+}
+
+.gender{
+ font-size: 1rem;
+}
+
+.genderSelect{
+    font-size: 0.9rem;
+    margin: 0.5rem;
+}
+
+#joinMembership{
+  accent-color:rgb(17, 153, 168);
+  margin: 0.5rem;
+}
+
+.submitBtn{
+    margin: 1rem;
+    font-size: 1rem;
+    background: rgba(17, 153, 168, 0.366);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    margin: 1rem;
+    font-size: 1rem;
+    background:rgb(12, 208, 222);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.Footer{
+    height: 3rem;
+    font-size: 0.8rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    }
+
+/*///////// Mobile Responsive /////*/
+
+@media (max-width: 450px ){
+
+    *{
+        font-size: 0.8rem;
+    }
+
+    .container{
+        margin: 1rem;
+    }
+
+    .spanAll{
+        height: 100%;
+    }
+
+    .profileImage{
+        margin-top: 0px;
+    }
+}
