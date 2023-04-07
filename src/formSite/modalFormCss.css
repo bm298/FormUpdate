@@ -1,18 +1,14 @@
 
 
 .modalContainer{
-    background-color: white;
-    opacity: 1;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+background-color: white;
+opacity: 1;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 position: fixed;
 font-size: 1.5rem;
 min-height: 20rem;
 min-width: 40rem;
-/* position:fixed;
-top: 40%;
-bottom: 50%;
-transform: translate(-50%,-50%);
-z-index: -1; */
+border-radius: 15px;
 
 }
 
@@ -25,7 +21,7 @@ z-index: -1; */
 .closeBtn{
     display: flex;
     justify-content: flex-end;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     outline: none;
     margin-right: 0.5rem;
 }
@@ -40,6 +36,18 @@ z-index: -1; */
     justify-content: center;
     font-size: 4rem;
     color: #62E03A;
+}
+
+.downloadBtn{
+    font-size: 1rem;
+    background: linear-gradient(153deg, rgb(115, 225, 231) 28%, rgb(141, 212, 233) 73%);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px 50px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
 }
 
 /*///////// Mobile Responsive /////*/
@@ -59,7 +67,6 @@ z-index: -1; */
     .BsPatchCheck{
         height: 2em;
         width: 2em;
-
     }
 
 }
