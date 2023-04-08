@@ -19,7 +19,6 @@ font-weight: bold;
 
 .container{
     max-width: 80rem;
-    /* margin-inline:: auto; */
     height: 90vh;
     margin: auto;
     display: flex;
