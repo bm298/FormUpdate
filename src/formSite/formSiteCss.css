@@ -96,7 +96,7 @@ font-weight: bold;
 
 .eachBox{
 display: flex;
-margin: 0.3rem;
+margin: 0.3rem 0rem;
 padding: 0.7rem;
 border: 1px solid rgba(17, 153, 168, 0.366);
 width: 13rem;
